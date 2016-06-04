@@ -1,0 +1,142 @@
+body {
+  background-color: #CCB27F;
+  background-image: url(background.png);
+  background-size: 100%;
+  background-repeat: round;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.website {
+  width: 100%;
+  position: relative;
+}
+
+.page {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+
+nav {
+  background: #331F14;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  position:fixed;
+	top:0;
+	left:0;
+  z-index:100;
+}
+
+.navList {
+  display: block;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0;
+  text-align: center;
+  width: 60%;
+}
+
+li {
+  box-sizing: border-box;
+  float: left;
+  padding: 15px;
+  position: relative;
+  width: calc(100% * 1/3);
+}
+
+li a {
+  color: #83D0F5;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #331F14;
+  font-size: 1.8em;
+  margin-left: 25px;
+}
+
+.logo {
+  width: 75px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  z-index: 102;
+}
+
+.driehoek {
+  width: 125px;
+  height: 225px;
+  background-color: #83D0F5;
+  transform: rotate(45deg);
+  position: fixed;
+  top: -80px;
+  left: -30px;
+  z-index: 101;
+}
+
+#home {
+  border-top: 5px solid #331F14;
+  width: 100%;
+  height: auto;
+  padding-top: 65px;
+  position: relative;
+}
+
+#home p {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+.app {
+  width: 30%;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+#about {
+  border-top: 5px solid #331F14;
+  width: 100%;
+  height: auto;
+  padding-top: 65px;
+}
+
+.popup {
+  width: 75%;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+#contact {
+  border-top: 5px solid #331F14;
+  width: 100%;
+  height: auto;
+  padding-top: 65px;
+}
+
+.map {
+  width: 95%;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+#contact p, #about p {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+#contact a, #about a, #home a {
+  text-decoration: none;
+  color: #331F14;
+  border-bottom: 2px solid #331F14;
+}
