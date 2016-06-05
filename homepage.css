@@ -56,6 +56,10 @@ li a {
   text-transform: uppercase;
 }
 
+li a:hover {
+  border-top: 2px solid #83D0F5;
+}
+
 h1 {
   color: #331F14;
   font-size: 1.8em;
@@ -132,6 +136,7 @@ h1 {
   width: 100%;
   height: auto;
   padding-top: 65px;
+  padding-bottom: 65px;
 }
 
 .map {
@@ -151,6 +156,12 @@ h1 {
   text-decoration: none;
   color: #331F14;
   border-bottom: 2px solid #331F14;
+}
+
+#contact a:hover {
+  border-top: 2px solid #83D0F5;
+  border-bottom: 2px solid #83D0F5;
+  color: #83D0F5;
 }
 
 #footer {
