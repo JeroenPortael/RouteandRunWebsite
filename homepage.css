@@ -46,7 +46,7 @@ li {
   float: left;
   padding: 15px;
   position: relative;
-  width: calc(100% * 1/3);
+  width: calc(100% * 1/4);
 }
 
 li a {
@@ -82,6 +82,18 @@ h1 {
 }
 
 #home {
+  width: 100%;
+  height: auto;
+  padding-top: 65px;
+  text-align: center;
+}
+
+.startlogo {
+  width: 75%;
+  margin-bottom: 50px;
+}
+
+#app {
   border-top: 5px solid #331F14;
   width: 100%;
   height: auto;
@@ -89,7 +101,7 @@ h1 {
   position: relative;
 }
 
-#home p {
+#app p {
   margin-left: 25px;
   margin-top: 15px;
   margin-bottom: 25px;
@@ -135,8 +147,26 @@ h1 {
   line-height: 25px;
 }
 
-#contact a, #about a, #home a {
+#contact a, #about a, #app a {
   text-decoration: none;
   color: #331F14;
   border-bottom: 2px solid #331F14;
+}
+
+#footer {
+  background: #331F14;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  position:fixed;
+	bottom:0;
+	left:0;
+  z-index:105;
+  text-align: center;
+}
+
+#footer p {
+  color: #83D0F5;
+  font-size: 1.2em;
+  margin: 15px;
 }
